@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import {AiFillLinkedin, AiFillGithub, AiFillInstagram, AiFillMediumCircle} from "react-icons/ai";
 import heroImg from '../assets/images/pavara-hero-image.png';
 
 function Hero() {
@@ -20,21 +20,28 @@ function Hero() {
             target={"_blank"}
             rel="noopener noreferrer"
           >
-            <AiFillLinkedin />
+            <AiFillLinkedin className='hover:text-teal-500' />
           </a>
           <a
             href="https://github.com/pavaramanupriya98"
             target={"_blank"}
             rel="noopener noreferrer"
           >
-            <AiFillGithub />
+            <AiFillGithub  className='hover:text-teal-500' />
+          </a>
+          <a
+              href="https://medium.com/@pavara.18"
+              target={"_blank"}
+              rel="noopener noreferrer"
+          >
+            <AiFillMediumCircle className='hover:text-teal-500' />
           </a>
           <a
             href="https://www.instagram.com/_manuu_98_/"
             target={"_blank"}
             rel="noopener noreferrer"
           >
-            <AiFillInstagram />
+            <AiFillInstagram className='hover:text-teal-500' />
           </a>
         </div>
         <div className="mx-auto rounded-full w-80 h-80 relative overflow-hidden mt-14 md:h-96 md:w-96">

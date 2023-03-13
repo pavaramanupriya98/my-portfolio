@@ -23,11 +23,15 @@ function Skills() {
   //   ];
 
   const technicalSkills = [
-    { name: "React", level: 70 },
     { name: "JavaScript", level: 80 },
+    { name: "Java", level: 80 },
+    { name: "React", level: 70 },
     { name: "HTML", level: 90 },
     { name: "CSS", level: 85 },
     { name: "Node.js", level: 60 },
+    { name: "Angular", level: 65 },
+    { name: "Swift", level: 80 },
+    { name: "Flutter", level: 60 },
   ];
   const nonTechnicalSkills = [
     { name: "Leadership", level: 85 },
@@ -65,18 +69,18 @@ function Skills() {
         animate="visible"
       >
         <div className="md:flex md:justify-between">
-          <div className="w-full md:w-1/2">
+          <div className="w-full m-1 md:w-1/2">
             <h3 className="text-xl font-bold text-gray-900 mb-2">
               Technical Skills
             </h3>
             <table className="w-full text-left mb-8">
               {technicalSkills.map((skill, index) => (
                 <tr key={index}>
-                  <td className="pr-4">{skill.name}</td>
+                  <td className="pr-4 text-center">{skill.name}</td>
                   <td className="w-full">
-                    <div className="bg-teal-500 h-2 rounded-full">
+                    <div className="bg-white h-2 rounded-full">
                       <motion.div
-                        className="bg-white h-full rounded-full"
+                        className="bg-teal-500 h-full rounded-full"
                         style={{ width: `${skill.level}%` }}
                         initial={{ width: 0 }}
                         animate={{ width: `${skill.level}%` }}
@@ -88,18 +92,18 @@ function Skills() {
               ))}
             </table>
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="w-full m-1 md:w-1/2">
             <h3 className="text-xl font-bold text-gray-900 mb-2">
               Non-Technical Skills
             </h3>
             <table className="w-full text-left mb-8">
               {nonTechnicalSkills.map((skill, index) => (
                 <tr key={index}>
-                  <td className="pr-4">{skill.name}</td>
+                  <td className="pr-4 text-center">{skill.name}</td>
                   <td className="w-full">
-                    <div className="bg-teal-500 h-2 rounded-full">
+                    <div className="bg-white h-2 rounded-full">
                       <motion.div
-                        className="bg-white h-full rounded-full"
+                        className="bg-teal-500 h-full rounded-full"
                         style={{ width: `${skill.level}%` }}
                         initial={{ width: 0 }}
                         animate={{ width: `${skill.level}%` }}
