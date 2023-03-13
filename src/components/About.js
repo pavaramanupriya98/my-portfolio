@@ -1,4 +1,5 @@
 import React from "react";
+import profileImage from '../assets/images/profile-picture.jpg';
 
 function About() {
   return (
@@ -13,7 +14,7 @@ function About() {
           <div className="md:flex-shrink-0">
             <img
               className="rounded-lg md:w-80"
-              src="./my-portfolio/images/profile-picture.jpg"
+              src={profileImage}
               alt="Pavara"
             />
           </div>

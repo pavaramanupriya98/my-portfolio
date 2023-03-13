@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import heroImg from '../assets/images/pavara-hero-image.png';
 
 function Hero() {
   return (
@@ -38,7 +39,7 @@ function Hero() {
         </div>
         <div className="mx-auto rounded-full w-80 h-80 relative overflow-hidden mt-14 md:h-96 md:w-96">
           <img
-            src="./my-portfolio/images/pavara-hero-image.png"
+            src={heroImg}
             objectfit="cover"
             alt="pavara"
           />
