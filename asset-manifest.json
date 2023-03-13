@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.26759cf5.css",
-    "main.js": "/my-portfolio/static/js/main.3156a261.js",
+    "main.css": "/my-portfolio/static/css/main.4a41aeb0.css",
+    "main.js": "/my-portfolio/static/js/main.fd7c73b0.js",
     "static/js/787.ee51958c.chunk.js": "/my-portfolio/static/js/787.ee51958c.chunk.js",
-    "static/media/pavara-hero-image.png": "/my-portfolio/static/media/pavara-hero-image.693208583dc641905c4d.png",
-    "static/media/profile-picture.jpg": "/my-portfolio/static/media/profile-picture.e357bbb91526c352384d.jpg",
+    "static/media/pavara-hero-image.png": "/my-portfolio/static/media/pavara-hero-image.879a240f5977da968cdc.png",
+    "static/media/MSP_Mobile_App.jpg": "/my-portfolio/static/media/MSP_Mobile_App.eec36360a5958f48ae54.jpg",
+    "static/media/Fit&Furious.jpg": "/my-portfolio/static/media/Fit&Furious.ff1bd5ef664f3f591201.jpg",
+    "static/media/Software Project-L2.jpeg": "/my-portfolio/static/media/Software Project-L2.d198054b7d7ae6277840.jpeg",
+    "static/media/profile-picture.jpg": "/my-portfolio/static/media/profile-picture.b16b9e9adfc9359a58d4.jpg",
+    "static/media/MSP_HRIS.jpg": "/my-portfolio/static/media/MSP_HRIS.2ef9654afe9290b101fd.jpg",
+    "static/media/raas.jpg": "/my-portfolio/static/media/raas.0613c4f37f2274e7b3eb.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.26759cf5.css.map": "/my-portfolio/static/css/main.26759cf5.css.map",
-    "main.3156a261.js.map": "/my-portfolio/static/js/main.3156a261.js.map",
+    "main.4a41aeb0.css.map": "/my-portfolio/static/css/main.4a41aeb0.css.map",
+    "main.fd7c73b0.js.map": "/my-portfolio/static/js/main.fd7c73b0.js.map",
     "787.ee51958c.chunk.js.map": "/my-portfolio/static/js/787.ee51958c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26759cf5.css",
-    "static/js/main.3156a261.js"
+    "static/css/main.4a41aeb0.css",
+    "static/js/main.fd7c73b0.js"
   ]
 }
