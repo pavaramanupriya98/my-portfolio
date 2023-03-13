@@ -1,4 +1,10 @@
 import React from "react";
+import img1 from "../assets/images/Software Project-L2.jpeg";
+import img2 from "../assets/images/MSP_Mobile_App.jpg";
+import img3 from "../assets/images/MSP_HRIS.jpg";
+import img4 from "../assets/images/raas.jpg";
+import img5 from "../assets/images/Fit&Furious.jpg";
+import img6 from "../assets/images/fyp.png";
 
 function Projects() {
   const projects = [
@@ -6,7 +12,7 @@ function Projects() {
       title: "Human Resource Management System",
       subtitle: "Second Year Software Project",
       description: "Android ASP.NET MySQL",
-      imageUrl: "./my-portfolio/images/Software Project-L2.jpeg",
+      imageUrl: img1,
       demoUrl: "#",
       sourceCodeUrl:
         "https://github.com/pavaramanupriya98/hr-tool-frontend.git",
@@ -16,7 +22,7 @@ function Projects() {
       title: "Moraspirit Mobile Application (Android)",
       subtitle: "Moraspirit Initiative",
       description: "Java Firebase",
-      imageUrl: "./my-portfolio/images/MSP_Mobile_App.jpg",
+      imageUrl: img2,
       demoUrl:
         "https://play.google.com/store/apps/details?id=com.moraspirit.moraspiritapp&hl=en_US&gl=US",
       sourceCodeUrl: "https://github.com/moraspirit/msp-mobile-app.git",
@@ -26,7 +32,7 @@ function Projects() {
       title: "Moraspirit Human Resource Information System",
       subtitle: "Moraspirit Initiative",
       description: "Laravel MySQL",
-      imageUrl: "./my-portfolio/images/MSP_HRIS.jpg",
+      imageUrl: img3,
       demoUrl: "https://hris.moraspirit.com/home",
       sourceCodeUrl: "https://github.com/moraspirit/msp-hr-website.git",
     },
@@ -35,7 +41,7 @@ function Projects() {
       title: "Revenue & Arrears Analysis System",
       subtitle: "External Project",
       description: "React JS  Spring Boot  MySQL",
-      imageUrl: "./my-portfolio/images/raas.jpg",
+      imageUrl: img4,
       demoUrl: "https://github.com/hException-Technologies/RAAS_Frontend.git",
       sourceCodeUrl:
         "https://github.com/hException-Technologies/RAAS_Frontend.git",
@@ -45,7 +51,7 @@ function Projects() {
       title: "Fit & Furious Mobile Application (Android)",
       subtitle: "Moraspirit Initiative",
       description: "University Sports",
-      imageUrl: "./my-portfolio/images/Fit&Furious.jpg",
+      imageUrl: img5,
       demoUrl: "https://github.com/moraspirit/Fit-n-Furious.git",
       sourceCodeUrl: "https://github.com/moraspirit/Fit-n-Furious.git",
     },
@@ -54,7 +60,7 @@ function Projects() {
       title: "Facebook Advertisements Recommendation System",
       subtitle: "Final Year Project",
       description: "Python Machine Learning NLP",
-      imageUrl: "./my-portfolio/images/fyp.png",
+      imageUrl: img6,
       demoUrl: "",
       sourceCodeUrl: "",
     },
