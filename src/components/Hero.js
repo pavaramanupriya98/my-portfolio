@@ -37,7 +37,11 @@ function Hero() {
           </a>
         </div>
         <div className="mx-auto rounded-full w-80 h-80 relative overflow-hidden mt-14 md:h-96 md:w-96">
-          <img src="./pavara-hero-image.png" objectFit="cover" alt="pavara" />
+          <img
+            src="./my-portfolio/images/pavara-hero-image.png"
+            objectfit="cover"
+            alt="pavara"
+          />
         </div>
       </div>
     </section>

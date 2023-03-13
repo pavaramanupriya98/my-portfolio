@@ -13,7 +13,7 @@ function About() {
           <div className="md:flex-shrink-0">
             <img
               className="rounded-lg md:w-80"
-              src="./profile-picture.jpg"
+              src="./my-portfolio/images/profile-picture.jpg"
               alt="Pavara"
             />
           </div>
