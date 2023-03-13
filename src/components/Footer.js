@@ -27,7 +27,7 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className="px-5 py-2">
-                        <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                        <a href="#experience" className="text-base text-gray-500 hover:text-gray-900">
                             Experience
                         </a>
                     </div>

@@ -9,6 +9,7 @@ import img6 from "../assets/images/fyp.png";
 function Projects() {
   const projects = [
     {
+      id: 'p-1',
       title: "Human Resource Management System",
       subtitle: "Second Year Software Project",
       description: "Android ASP.NET MySQL",
@@ -19,6 +20,7 @@ function Projects() {
     },
 
     {
+        id: 'p-2',
       title: "Moraspirit Mobile Application (Android)",
       subtitle: "Moraspirit Initiative",
       description: "Java Firebase",
@@ -29,6 +31,7 @@ function Projects() {
     },
 
     {
+        id: 'p-3',
       title: "Moraspirit Human Resource Information System",
       subtitle: "Moraspirit Initiative",
       description: "Laravel MySQL",
@@ -38,6 +41,7 @@ function Projects() {
     },
 
     {
+        id: 'p-4',
       title: "Revenue & Arrears Analysis System",
       subtitle: "External Project",
       description: "React JS  Spring Boot  MySQL",
@@ -48,6 +52,7 @@ function Projects() {
     },
 
     {
+        id: 'p-5',
       title: "Fit & Furious Mobile Application (Android)",
       subtitle: "Moraspirit Initiative",
       description: "University Sports",
@@ -57,6 +62,7 @@ function Projects() {
     },
 
     {
+        id: 'p-6',
       title: "Facebook Advertisements Recommendation System",
       subtitle: "Final Year Project",
       description: "Python Machine Learning NLP",
@@ -78,7 +84,7 @@ function Projects() {
           {projects.map((project) => (
             <div
               className="bg-white rounded-lg overflow-hidden shadow-lg"
-              key={project}
+              key={project.id}
             >
               <img
                 className="h-48 w-full object-cover"

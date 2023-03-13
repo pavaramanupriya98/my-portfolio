@@ -74,8 +74,9 @@ function Skills() {
               Technical Skills
             </h3>
             <table className="w-full text-left mb-8">
+              <tbody>
               {technicalSkills.map((skill, index) => (
-                <tr key={index}>
+                <tr key={index.toString()}>
                   <td className="pr-4 text-center">{skill.name}</td>
                   <td className="w-full">
                     <div className="bg-white h-2 rounded-full">
@@ -90,6 +91,7 @@ function Skills() {
                   </td>
                 </tr>
               ))}
+                </tbody>
             </table>
           </div>
           <div className="w-full m-1 md:w-1/2">
@@ -97,8 +99,9 @@ function Skills() {
               Non-Technical Skills
             </h3>
             <table className="w-full text-left mb-8">
+              <tbody>
               {nonTechnicalSkills.map((skill, index) => (
-                <tr key={index}>
+                <tr key={index.toString()}>
                   <td className="pr-4 text-center">{skill.name}</td>
                   <td className="w-full">
                     <div className="bg-white h-2 rounded-full">
@@ -113,6 +116,7 @@ function Skills() {
                   </td>
                 </tr>
               ))}
+              </tbody>
             </table>
           </div>
         </div>

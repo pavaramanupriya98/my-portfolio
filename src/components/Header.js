@@ -1,6 +1,9 @@
 import React from "react";
+import { FaWindowClose } from "react-icons/fa";
 
 function Header() {
+
+  const [isNavOpen, setIsNavOpen] = React.useState(false);
 
   return (
     <section className="header section fixed w-full h-20 z-10" id="header">
@@ -14,6 +17,7 @@ function Header() {
                 type="button"
                 className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                 aria-controls="mobile-menu"
+                onClick={() => setIsNavOpen(!isNavOpen)}
                 aria-expanded="false"
               >
                 <span className="sr-only">Open main menu</span>
@@ -89,6 +93,51 @@ function Header() {
                     >
                         Experience
                     </a>
+                </div>
+              </div>
+
+              <div className={` ${isNavOpen? 'block': 'hidden'} absolute top-20 rounded-lg left-0 bg-gray-800 w-full`}>
+                <div className="flex flex-row justify-end items-center m-1 ">
+                  <button type={"button"} onClick={() => setIsNavOpen(!isNavOpen)}>
+                    <FaWindowClose className={"text-white text-2xl"} />
+                  </button>
+                </div>
+                <div className="flex flex-col justify-start items-stretch m-2">
+                    <a
+                        href="#hero"
+                        className="active:bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                        aria-current="page"
+                    >
+                        Home
+                    </a>
+                  <a
+                      href="#about"
+                      className="active:bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium m-0"
+                      aria-current="page"
+                  >
+                    About
+                  </a>
+                  <a
+                      href="#projects"
+                      className="active:bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                      aria-current="page"
+                  >
+                    Projects
+                  </a>
+                  <a
+                      href="#skills"
+                      className="active:bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium m-0"
+                      aria-current="page"
+                  >
+                    Skills
+                  </a>
+                  <a
+                      href="#experience"
+                      className="active:bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium m-0"
+                      aria-current="page"
+                  >
+                    Experience
+                  </a>
                 </div>
               </div>
             </div>
