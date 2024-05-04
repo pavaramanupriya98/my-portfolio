@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2b18be05.css",
-    "main.js": "/my-portfolio/static/js/main.497cdd9e.js",
+    "main.js": "/my-portfolio/static/js/main.ae4f3bbe.js",
     "static/js/787.ee51958c.chunk.js": "/my-portfolio/static/js/787.ee51958c.chunk.js",
     "static/media/pavara-hero-image.png": "/my-portfolio/static/media/pavara-hero-image.879a240f5977da968cdc.png",
     "static/media/MSP_Mobile_App.jpg": "/my-portfolio/static/media/MSP_Mobile_App.eec36360a5958f48ae54.jpg",
@@ -12,11 +12,11 @@
     "static/media/raas.jpg": "/my-portfolio/static/media/raas.0613c4f37f2274e7b3eb.jpg",
     "index.html": "/my-portfolio/index.html",
     "main.2b18be05.css.map": "/my-portfolio/static/css/main.2b18be05.css.map",
-    "main.497cdd9e.js.map": "/my-portfolio/static/js/main.497cdd9e.js.map",
+    "main.ae4f3bbe.js.map": "/my-portfolio/static/js/main.ae4f3bbe.js.map",
     "787.ee51958c.chunk.js.map": "/my-portfolio/static/js/787.ee51958c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b18be05.css",
-    "static/js/main.497cdd9e.js"
+    "static/js/main.ae4f3bbe.js"
   ]
 }
