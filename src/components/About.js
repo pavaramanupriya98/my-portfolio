@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from '../assets/images/profile-picture.jpg';
+import profileImage from "../assets/images/profile-picture.jpg";
 
 function About() {
   return (
@@ -30,8 +30,8 @@ function About() {
               valuable leadership experience gained as the head of the web and
               technology pillar at Moraspirit, I have a proven track record of
               motivating teams and achieving success through collaboration. My
-              technical skills have been honed through previous internships,
-              including a successful stint at 4Axis Solutions Pvt Ltd.
+              technical skills have been honed through my current role at Azend
+              Technologies and my previous internship at 4Axis Solutions.
               <br />
               <br />
               In my free time, I enjoy listening to music, which helps me to

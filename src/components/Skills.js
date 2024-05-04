@@ -2,34 +2,17 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function Skills() {
-  //   const technicalSkills = [
-  //     "C",
-  //     "Java",
-  //     "Python",
-  //     "HTML",
-  //     "CSS",
-  //     "Javascript",
-  //     "Angular",
-  //     "React JS",
-  //     "Node JS",
-  //     " ASP .Net Core",
-  //     "Spring Boot",
-  //   ];
-  //   const nonTechnicalSkills = [
-  //     "Leadership",
-  //     "Communication",
-  //     "Problem Solving",
-  //     "Time Management",
-  //   ];
-
   const technicalSkills = [
+    { name: "Angular", level: 90 },
+    { name: ".NET", level: 90 },
+    { name: "MSSQL", level: 90 },
+    { name: "PostgreSQL", level: 90 },
+    { name: "React", level: 70 },
     { name: "JavaScript", level: 80 },
     { name: "Java", level: 80 },
-    { name: "React", level: 70 },
     { name: "HTML", level: 90 },
     { name: "CSS", level: 85 },
     { name: "Node.js", level: 60 },
-    { name: "Angular", level: 65 },
     { name: "Swift", level: 80 },
     { name: "Flutter", level: 60 },
   ];
@@ -75,23 +58,23 @@ function Skills() {
             </h3>
             <table className="w-full text-left mb-8">
               <tbody>
-              {technicalSkills.map((skill, index) => (
-                <tr key={index.toString()}>
-                  <td className="pr-4 text-center">{skill.name}</td>
-                  <td className="w-full">
-                    <div className="bg-white h-2 rounded-full">
-                      <motion.div
-                        className="bg-teal-500 h-full rounded-full"
-                        style={{ width: `${skill.level}%` }}
-                        initial={{ width: 0 }}
-                        animate={{ width: `${skill.level}%` }}
-                        transition={{ duration: 1 }}
-                      ></motion.div>
-                    </div>
-                  </td>
-                </tr>
-              ))}
-                </tbody>
+                {technicalSkills.map((skill, index) => (
+                  <tr key={index.toString()}>
+                    <td className="pr-4 text-center">{skill.name}</td>
+                    <td className="w-full">
+                      <div className="bg-white h-2 rounded-full">
+                        <motion.div
+                          className="bg-teal-500 h-full rounded-full"
+                          style={{ width: `${skill.level}%` }}
+                          initial={{ width: 0 }}
+                          animate={{ width: `${skill.level}%` }}
+                          transition={{ duration: 1 }}
+                        ></motion.div>
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
             </table>
           </div>
           <div className="w-full m-1 md:w-1/2">
@@ -100,22 +83,22 @@ function Skills() {
             </h3>
             <table className="w-full text-left mb-8">
               <tbody>
-              {nonTechnicalSkills.map((skill, index) => (
-                <tr key={index.toString()}>
-                  <td className="pr-4 text-center">{skill.name}</td>
-                  <td className="w-full">
-                    <div className="bg-white h-2 rounded-full">
-                      <motion.div
-                        className="bg-teal-500 h-full rounded-full"
-                        style={{ width: `${skill.level}%` }}
-                        initial={{ width: 0 }}
-                        animate={{ width: `${skill.level}%` }}
-                        transition={{ duration: 1 }}
-                      ></motion.div>
-                    </div>
-                  </td>
-                </tr>
-              ))}
+                {nonTechnicalSkills.map((skill, index) => (
+                  <tr key={index.toString()}>
+                    <td className="pr-4 text-center">{skill.name}</td>
+                    <td className="w-full">
+                      <div className="bg-white h-2 rounded-full">
+                        <motion.div
+                          className="bg-teal-500 h-full rounded-full"
+                          style={{ width: `${skill.level}%` }}
+                          initial={{ width: 0 }}
+                          animate={{ width: `${skill.level}%` }}
+                          transition={{ duration: 1 }}
+                        ></motion.div>
+                      </div>
+                    </td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
