@@ -16,7 +16,7 @@ function Hero() {
         </h2>
         <h3 className="text-center py-2 md:text-3xl">Software Engineer</h3>
         <p className="text-md py-5 leading-8 text-gray-800 max-w-xl mx-auto md:text-xl">
-          IT Graduate with 1+ years industry experience as a SE
+          IT Graduate with 2+ years industry experience as a SE
           <br />
           Join me down below and let's get cracking!
         </p>
